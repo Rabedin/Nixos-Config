@@ -1,4 +1,4 @@
-{config, pkgs,}: {
+{config, pkgs, lib, ...}: {
     wayland.windowManager.hyprland.extraConfig = ''
         monitor=,preferred,auto,auto
 
