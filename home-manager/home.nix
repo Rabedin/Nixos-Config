@@ -36,7 +36,6 @@
     };
   };
 
-  # TODO: Set your username
   home = {
     username = "red";
     homeDirectory = "/home/red";
@@ -112,6 +111,12 @@
         theme = "agnoster";
       };
     };
+    # eww
+    eww = {
+      enable = true;
+      package = pkgs.eww-wayland;
+      configDir = ./configs/eww;
+    };
   };
 
   # Add stuff for your user as you see fit:
@@ -123,6 +128,7 @@
     steam
     pavucontrol
     discord
+    swww
     remmina
     ranger
     mako
