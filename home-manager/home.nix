@@ -134,6 +134,7 @@
     mako
     neofetch
     htop
+    rustup
   ];
 
   # Enable home-manager and git
